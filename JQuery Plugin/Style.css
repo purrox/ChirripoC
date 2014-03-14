@@ -1,0 +1,56 @@
+
+input.watermark {
+ color: #999; 
+ text-align: center;
+}
+
+.miDiv{
+	    background: #F2F5A0;
+		text-align: center;
+		height: 90px;
+		width : 200px;
+		position: absolute;
+		top:10%;
+		border-radius: 60px 60px 60px 60px;
+		left: 40%;
+		align: center;
+
+}
+
+
+.miDiv2{
+	    background: white;
+		text-align: center;
+		height: 150px;
+		width : 800px;
+		border-radius: 100px 0 60px 0;
+		position: absolute;
+		top: 25%;
+		left: 25%;
+}
+
+#main{
+	background: #006699;
+
+}
+
+.google {
+	  padding: 6px 10px;
+	  -webkit-border-radius: 2px 2px;
+	  border: solid 1px rgb(153, 153, 153);
+	  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(255, 255, 255)), to(rgb(221, 221, 221)));
+	  color: #333;
+	  text-decoration: none;
+	  cursor: pointer;
+	  display: inline-block;
+	  text-align: center;
+	  text-shadow: 0px 1px 1px rgba(255,255,255,1);
+	  line-height: 1;
+}
+
+#canvas 
+{
+	height: 150px;
+	width : 800px;
+
+} 

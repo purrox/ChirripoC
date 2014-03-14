@@ -1,0 +1,60 @@
+#panel {
+        position: absolute;
+     
+        left: 50%;
+        margin-left: -400px;
+        z-index: 5;
+        background-color: #fff; 
+        padding: 5px;
+       
+   
+      }
+
+.bordesolido{
+	   border-color: #ffffff;
+	   border-width: 15px;
+	   border-style: solid;
+	   background-color: #ffffff;
+	   width:1200px;
+	   height:680px;
+	 }
+
+#body {
+  position: absolute;
+  width: 200px;
+  left: 400px;
+  background-color: #0B3B39;
+}
+div.upload {
+    width: 157px;
+    height: 57px;
+    background: url(https://lh6.googleusercontent.com/-dqTIJRTqEAQ/UJaofTQm3hI/AAAAAAAABHo/w7ruR1SOIsA/s157/upload.png);
+    overflow: hidden;
+
+}
+
+div.upload input {
+    display: block !important;
+    width: 157px !important;
+    height: 57px !important;
+    opacity: 0 !important;
+    overflow: hidden !important;
+    margin-top: 10px; 	
+}
+
+.footer {
+  position: absolute;
+  width: 200px;
+  left: 400px;
+  background-color: #0B3B39;
+}
+
+.Panels{
+margin:20px;
+background-color:#E6F8E0;
+width: 1170px;
+height: 100px;
+text-align: center;
+     border-radius: 60px 0 60px 0;
+  }
+

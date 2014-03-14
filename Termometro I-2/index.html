@@ -1,0 +1,220 @@
+<html>
+<head>
+<title>Node.js</title>
+</head>
+	<style type="text/css">
+
+	 	body{
+			background: #819FF7;		
+		}
+		#table{
+
+			border-color: blue;
+			background-color: #FBEFF2;
+			border-width: 5px;
+			text-align: center;
+		}
+
+		td{
+			border: 3px;	
+			border-style: outset;
+			border-color: #07190B;
+			background: #E6E6E6;
+			width: 50;
+			height: 50;
+		}
+
+		#main{
+			position: absolute;
+			left: 35%;
+			bottom: 30%%;
+			background: #0B2F3A;
+		}
+
+		#header{
+			background: red;
+			width: 600;
+			text-align: center;
+			position: absolute;
+			left: 35%;
+			bottom: 83%;
+			background: #0B2F3A;
+			color: white;
+
+		}
+		#test{
+			position: relative;
+			top:3%;
+			left:35%;
+		}
+	</style>
+	<body>
+		<div id= "header">
+			<h1> Chirripo Termometro I-2</h1>
+		</div>		
+
+		<div id="main">
+			<table id="table">
+				<tr >
+					<td id="td1" onclick="cell(this);"></td>
+					<td id="td2" onclick="cell(this);"></td>
+					<td id="td3" onclick="cell(this);"></td>
+					<td id="td4" onclick="cell(this);"></td>
+					<td id="td5" onclick="cell(this);"></td>
+					<td id="td6" onclick="cell(this);"></td>
+					<td id="td7" onclick="cell(this);"></td>
+					<td id="td8" onclick="cell(this);"></td>
+					<td id="td9" onclick="cell(this);"></td>
+					<td id="td0" onclick="cell(this);"></td>
+				</tr>
+				<tr>
+					<td id="td11" onclick="cell(this);"></td>
+					<td id="td12" onclick="cell(this);"></td>
+					<td id="td13" onclick="cell(this);"></td>
+					<td id="td14" onclick="cell(this);"></td>
+					<td id="td15" onclick="cell(this);"></td>
+					<td id="td16" onclick="cell(this);"></td>
+					<td id="td17" onclick="cell(this);"></td>
+					<td id="td18" onclick="cell(this);"></td>
+					<td id="td19" onclick="cell(this);"></td>
+					<td id="td10" onclick="cell(this);"></td>
+				</tr>
+				<tr>
+					<td id="td20" onclick="cell(this);"></td>
+					<td id="td21" onclick="cell(this);"></td>
+					<td id="td22" onclick="cell(this);"></td>
+					<td id="td23" onclick="cell(this);"></td>
+					<td id="td24" onclick="cell(this);"></td>
+					<td id="td25" onclick="cell(this);"></td>
+					<td id="td26" onclick="cell(this);"></td>
+					<td id="td27" onclick="cell(this);"></td>
+					<td id="td28" onclick="cell(this);"></td>
+					<td id="td29" onclick="cell(this);"></td>
+				</tr>
+				<tr>
+					<td id="td30" onclick="cell(this);"></td>
+					<td id="td31" onclick="cell(this);"></td>
+					<td id="td32" onclick="cell(this);"></td>
+					<td id="td33" onclick="cell(this);"></td>
+					<td id="td34" onclick="cell(this);"></td>
+					<td id="td35" onclick="cell(this);"></td>
+					<td id="td36" onclick="cell(this);"></td>
+					<td id="td37" onclick="cell(this);"></td>
+					<td id="td38" onclick="cell(this);"></td>
+					<td id="td39" onclick="cell(this);"></td>
+				</tr>
+				<tr>
+					<td id="td40" onclick="cell(this);"></td>
+					<td id="td41" onclick="cell(this);"></td>
+					<td id="td42" onclick="cell(this);"></td>
+					<td id="td43" onclick="cell(this);"></td>
+					<td id="td45" onclick="cell(this);"></td>
+					<td id="td46" onclick="cell(this);"></td>
+					<td id="td47" onclick="cell(this);"></td>
+					<td id="td48" onclick="cell(this);"></td>
+					<td id="td49" onclick="cell(this);"></td>
+					<td id="td44" onclick="cell(this);"></td>
+				</tr>
+				<tr>
+					<td id="td51" onclick="cell(this);"></td>
+					<td id="td52" onclick="cell(this);"></td>
+					<td id="td53" onclick="cell(this);"></td>
+					<td id="td54" onclick="cell(this);"></td>
+					<td id="td55" onclick="cell(this);"></td>
+					<td id="td56" onclick="cell(this);"></td>
+					<td id="td57" onclick="cell(this);"></td>
+					<td id="td58" onclick="cell(this);"></td>
+					<td id="td59" onclick="cell(this);"></td>
+					<td id="td50" onclick="cell(this);"></td>
+				</tr>
+					<tr>
+					<td id="td61" onclick="cell(this);"></td>
+					<td id="td62" onclick="cell(this);"></td>
+					<td id="td63" onclick="cell(this);"></td>
+					<td id="td64" onclick="cell(this);"></td>
+					<td id="td65" onclick="cell(this);"></td>
+					<td id="td66" onclick="cell(this);"></td>
+					<td id="td67" onclick="cell(this);"></td>
+					<td id="td68" onclick="cell(this);"></td>
+					<td id="td69" onclick="cell(this);"></td>
+					<td id="td60" onclick="cell(this);"></td>
+				</tr>
+					<tr>
+					<td id="td71" onclick="cell(this);"></td>
+					<td id="td72" onclick="cell(this);"></td>
+					<td id="td73" onclick="cell(this);"></td>
+					<td id="td74" onclick="cell(this);"></td>
+					<td id="td75" onclick="cell(this);"></td>
+					<td id="td76" onclick="cell(this);"></td>
+					<td id="td77" onclick="cell(this);"></td>
+					<td id="td78" onclick="cell(this);"></td>
+					<td id="td79" onclick="cell(this);"></td>
+					<td id="td70" onclick="cell(this);"></td>
+				</tr>
+					<tr>
+					<td id="td81" onclick="cell(this);"></td>
+					<td id="td82" onclick="cell(this);"></td>
+					<td id="td83" onclick="cell(this);"></td>
+					<td id="td84" onclick="cell(this);"></td>
+					<td id="td85" onclick="cell(this);"></td>
+					<td id="td86" onclick="cell(this);"></td>
+					<td id="td87" onclick="cell(this);"></td>
+					<td id="td88" onclick="cell(this);"></td>
+					<td id="td89" onclick="cell(this);"></td>
+					<td id="td80" onclick="cell(this);"></td>
+				</tr>
+					<tr>
+					<td id="td91" onclick="cell(this);"></td>
+					<td id="td92" onclick="cell(this);"></td>
+					<td id="td93" onclick="cell(this);"></td>
+					<td id="td94" onclick="cell(this);"></td>
+					<td id="td95" onclick="cell(this);"></td>
+					<td id="td96" onclick="cell(this);"></td>
+					<td id="td97" onclick="cell(this);"></td>
+					<td id="td98" onclick="cell(this);"></td>
+					<td id="td99" onclick="cell(this);"></td>
+					<td id="td90" onclick="cell(this);"></td>
+				</tr>
+			</table>
+		</div>
+
+		<div id="test">
+		    <label><strong>Color</strong></label>
+			<input type="color" id="picker">
+			
+		</div>
+		<script src="/socket.io/socket.io.js"></script>
+		<script type="text/javascript">
+			var socket,
+				colorPick;
+				
+			function cell( td ) {
+				 colorPick  = document.getElementById('picker').value;
+				socket.emit("click", { id: td.id, col: colorPick});
+			}
+
+			window.onload = function() {
+
+				 socket = io.connect('http://localhost:8000');	
+				
+
+
+				socket.on('changeColor', function (data) {
+								var newtd = document.getElementById(data.id);
+								newtd.style.background=data.color;
+
+							});
+
+				socket.on('welcome', function (data) {
+					var tds;
+					for (var i = 0; i < data.length; i++) {
+						 tds = document.getElementById(data[i].id);
+						 tds.style.background=data[i].col;
+
+					};
+				});
+				}
+				
+		</script>
+	</body>
+</html>
